@@ -6,7 +6,25 @@ body {
     font-family: Lato, sans-serif;
 }
 
-/*----------------------- banner section starts from here -----------------------*/
+.section-title {
+    font-size: 36px;
+    font-weight: 600;
+    text-align: center;
+    margin: 60px 0px;
+}
+
+.section-title::after {
+    content: '';
+    background: #EE3D1B;
+    height: 4px;
+    width: 10%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/*--------------------------------------- header section starts from here ---------------------------------------*/
 .banner {
     background-image: linear-gradient(90deg, rgba(213, 32, 71, 0.8) 0%, rgba(238, 61, 27, 0.8) 100%), url(../images/banner.jpg);
     background-repeat: no-repeat;
@@ -32,6 +50,10 @@ body {
     margin: 0;
     color: white;
     margin-left: 8px;
+}
+
+.navbar {
+    padding-top: 40px;
 }
 
 .navbar-nav li a {
@@ -97,4 +119,139 @@ body {
     font-size: 14px;
 }
 
-/*----------------------- banner section ends from here -----------------------*/
+/*--------------------------------------- header section ends from here ---------------------------------------*/
+
+
+/*--------------------------------------- main section starts from here ---------------------------------------*/
+
+/* video section starts from here */
+.video-section {
+    margin: 94px 0px;
+}
+
+.video-title {
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+.video-title h2 {
+    font-size: 36px;
+    font-weight: 600;
+}
+
+.video-title p {
+    text-align: justify;
+}
+
+.video-title a {
+    color: #ED4C5C;
+    text-decoration: none;
+}
+
+.video-bg img:hover {
+    transform: scale(1.030);
+    transition: .5s ease;
+}
+
+/* video section ends from here */
+
+
+/* feature section starts from here */
+.feature-section {
+    margin: 100px 0px;
+}
+
+.feature-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.feature-details {
+    Width: 293px;
+    Height: 198px;
+    padding: 32px;
+    text-align: center;
+    background: white;
+    box-shadow: 0px 5px 30px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    margin-top: -100px;
+}
+
+.feature-details h2 {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.feature-details p {
+    padding-top: 15px;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.feature-details a {
+    font-size: 12px;
+    font-weight: 700;
+    color: #ED4C5C;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+/* feature section ends from here */
+
+
+/* technology section starts from here */
+.technology-section {
+    margin: 100px 0;
+}
+
+.cloud-card-1 {
+    background: url(../images/technology/01.png);
+    background-repeat: no-repeat;
+    background-position: top center;
+    text-align: center;
+    padding-top: 40px;
+}
+
+.cloud-card-2 {
+    background: url(../images/technology/02.png);
+    background-repeat: no-repeat;
+    background-position: top center;
+    text-align: center;
+    padding-top: 60px;
+}
+
+.cloud-card-3 {
+    background: url(../images/technology/03.png);
+    background-repeat: no-repeat;
+    background-position: top center;
+    text-align: center;
+    padding-top: 60px;
+}
+
+.cloud-card-4 {
+    background: url(../images/technology/04.png);
+    background-repeat: no-repeat;
+    background-position: top center;
+    text-align: center;
+    padding-top: 60px;
+}
+
+
+
+
+
+.cloud-card h3 {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.cloud-card p {
+    font-size: 12px;
+    font-weight: 400;
+}
+
+/* technology section ends from here */
+
+/*--------------------------------------- main section ends from here ---------------------------------------*/
